@@ -13,12 +13,23 @@ These patterns are concerned with representing concepts that show up repeatedly 
 ### Architecture
 TODO
 
+### Input data
+**Show the input to the model.**  
+It is often helpful to show example inputs to give a sense for the models behavior.  
+It is also important for the reader to understand what the input looks like, and any constraints on the data format or validity.
+
+Examples:
+* https://pair.withgoogle.com/explorables/fill-in-the-blank/
+* https://observablehq.com/@krisrs1128/remembrances-of-states-past
+* https://anomagram.fastforwardlabs.com/#/
+
 ### Activations
 **The outputs of the activation function for each neuron.**  
 TODO further describe & add more examples
 
 Examples: 
 * https://distill.pub/2018/building-blocks/
+* https://thilospinner.com/towards-an-interpretable-latent-space/
 
 ### Weights
 **The strength of connections between neurons.**  
@@ -54,6 +65,12 @@ Examples:
 These patterns are concerned with clarifying our communication. Keep in mind that all of the patterns in this category work just as well in static media like PDFs. It is still important to call them out explicitly because when they are combined with the patterns in the Choice categories it opens up a whole new world of possibilities.
 
 ### Annotation
+**Point out important elements in figures with textual annotations.**  
+When making new representations via data visualization help the reader orient by pointing out examples of patterns and important elements.
+
+Examples: 
+* https://pair.withgoogle.com/explorables/fill-in-the-blank/
+* https://bert-vs-gpt2.dbvis.de/
 
 ### Text integration
 **Connect written words with figures directly via color, location and hyperlinks.**  
@@ -127,8 +144,21 @@ Examples:
 * https://interactive-maml.github.io/
 
 ### Playback
+**Allow the reader to control playback when many steps are involved.**  
+Animating or simulating a complex series of steps can provide a powerful intuition of how a system changes.  
+Give users control over playback with familiar inputs and affordances. 
+
+Examples: 
+* stepping: https://distill.pub/2020/grand-tour/
+* scrollytelling: [Beginners guide to dimensionality reduction](https://visxai-dimensionality-reduction-1dbad0a67a092b007c526a45.vercel.app/)
 
 ### Affordances
+**Let readers know where they can interact.**  
+Many representations and choices are new to readers of dynamic media. It can be helpful to indicate where and how a reader can interact with the article.  
+Common affordances include signage, wayfinding, demonstrations, hover effects and scrollytelling.
+
+Examples: 
+* https://distill.pub/2017/momentum/
 
 ### Linked views
 **Setup interactions with one figure to change the contents of another figure.**  
@@ -141,8 +171,24 @@ Examples:
 * https://www.ruthfong.com/projects/interactive_overlay/
 
 ### Inputs
+**Allow readers to make choices using familiar input methods.**  
+Letting the reader control parameters of a model, simulation or game with sliders and select menus can help them build intuition via familiar methods.  
+
+Allowing the reader to provide more custom input to models via text input or hand-drawing samples can also be powerful. Some care should be given to guide custom input.
+
+Examples:
+* https://pair.withgoogle.com/explorables/fill-in-the-blank/
+* https://jgoertler.com/visual-exploration-gaussian-processes/
 
 ### Object constancy
+**As a figure changes, keep representations consistent over time.**  
+Treat representations of data points like physical objects, transition their appearance and positions as they change.  
+Object constancy enables the reader to follow visual transformations to better understand the conceptual transformations.
+
+Examples: 
+* https://mlu-explain.github.io/train-test-validation/
+* [Beginners guide to dimensionality reduction](https://visxai-dimensionality-reduction-1dbad0a67a092b007c526a45.vercel.app/)
+* https://bost.ocks.org/mike/constancy/
 
 
 ## Environment
@@ -160,7 +206,22 @@ Knowing where packages get installed and how to resolve version conflicts can sa
 ### Data serialization
 
 ### File management
+**Know where your data is stored.**  
+In order to consume data one must first be able to find it. Files and databases can live on local machines, behind firewalls in the cloud or in memory. Being deliberate about where data lives and how it is accessed will improve all aspects of building.  
+Flat files are better than fancy hierarchies. Tidy data is better than nested data.
+
+Examples:
+* https://microscope.openai.com/models/inceptionv1/mixed5b_3x3_0/98
+
 
 ### APIs
+**Design APIs (functions) by considering their context, choices and environment.**  
+
+What **context** does this function need?  
+What **choices** does the caller have?  
+What **environment** does it run in?  
+
+TODO: examples
+
 ---
 TODO: replace URLs with their article titles
