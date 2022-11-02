@@ -119,6 +119,7 @@ Examples:
 * https://aatishb.com/entropy/
 * https://theo-jaunet.github.io/theo-guesser/
 * https://ncase.me/polygons/
+* https://nan.fyi/how-arrays-work
 
 
 
@@ -142,6 +143,7 @@ By encouraging readers to step into the shoes of the algorithm they can better u
 Examples: 
 * https://www.pewresearch.org/interactives/how-does-a-computer-see-gender/
 * https://interactive-maml.github.io/
+* https://peopleofthepandemicgame.com/ 
 
 ### Playback
 **Allow the reader to control playback when many steps are involved.**  
