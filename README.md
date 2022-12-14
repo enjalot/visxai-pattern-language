@@ -1,6 +1,10 @@
 # Towards a pattern language for visualizing AI
 
-This is an attempt to start cataloging design patterns for visualizing AI. These patterns are introduced in [these talk slides](https://docs.google.com/presentation/d/1h8pubQ4v8cZelU72wvAjvg4566rxa0p93U6eQ9x_OmU/edit#slide=id.p) with screenshots and GIFs. The goal of this document is to add to the language and enrich the patterns with more detailed information and examples. 
+This is an attempt to start cataloging design patterns for visualizing AI. 
+
+These patterns are introduced in this talk ([slides](https://docs.google.com/presentation/d/1h8pubQ4v8cZelU72wvAjvg4566rxa0p93U6eQ9x_OmU/edit#slide=id.p) / [video recording](https://www.youtube.com/watch?v=TiUIJgPmihs&t=389s)) with screenshots and GIFs. 
+
+The goal of this document is to add to the language and enrich the patterns with more detailed information and examples. 
 
 Help us collect good examples of these patterns and sharpen their definitions. Feel free to open an issue or pull request!
 
